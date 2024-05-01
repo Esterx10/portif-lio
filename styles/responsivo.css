@@ -396,9 +396,11 @@
         padding-bottom: 7px;
     }
 
+
+
 }
 
-@media screen and (max-width: 3px) {
+@media screen and (max-width: 740px) {
     .contato_esquerda {
         display: none;
     }
