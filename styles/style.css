@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap');
+
+:root{
+
+    --cor-de-fundo: #f5f1e8;
+    --cor-de-fundo-2: #FEFAE0;
+    --cor-da-font: #566524;
+    --cor-botao: #D4A373;
+
+    --font-titulo: "Sail", system-ui;
+    --font-paragrafo: "Podkova", serif;
+}
+
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    border: 0;
+}
+ol, ul,li {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-da-font);
+}
+
+
+section.header_conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem;
+    gap: 5rem;
+}
+
+.header__conteiner_name {
+    font-family: var(--font-paragrafo);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-da-font);
+
+}
+
+.header_nav_conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.header_nav_conteiner a {
+    color: var(--cor-da-font);
+    text-decoration: none;
+    position: relative;
+    font-family:var(--font-paragrafo);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu__list__contato{
+    display: none;
+ }
+
+
+
+
+/*Sessão titulo*/
+.title__conteiner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: auto;
+    background-color: var(--cor-de-fundo);
+    gap: 20px;
+}
+
+.title__conteiner_div {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.title__conteiner__sobremin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 5px;
+
+    
+}
+
+.bio_title {
+    width: auto;
+    height: auto;
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    color: var(--cor-da-font);
+    font-size: 50px;
+    line-height: 61.05px;
+
+}
+
+.title__paragrafo_conteiner {
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    color: var(--cor-da-font);
+    font-size: 20px;
+    line-height: 24.83px;
+
+
+}
+
+.container__menu__image {
+    margin: 0 1rem;
+}
+    
+
+.container__menu__img {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+
+}
+
+.liks__container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+    height: 1rem;
+    gap: 2rem;
+}
+
+.liks__container img {
+    width: 9px;
+    height: 9px;
+}
+
+/*Sessão Sobre Mim*/
+.container__sobremin__aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    background: var(--cor-de-fundo-2);
+}
+
+.container__aboutme {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container__aboutme__title {
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--cor-da-font);
+    line-height: 36.57px;
+}
+
+.container__aboutme__paragrafo {
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:18.78px;
+    color: var(--cor-da-font);
+}
+ 
+/*Skills*/
+
+.container__skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 2%;
+    background-color: var(--cor-de-fundo);
+
+}
+
+.container_skills_title {
+    color: var(--cor-da-font);
+    font-family: var(--font-titulo);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 37.57px;
+
+}
+.container_grupo_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.skills__img {
+    width: auto;
+    height: auto;
+    line-height: 36.8px;
+
+}
+
+.skills__name{
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cor-da-font);
+}
+
+/* Hobbies */
+
+.container_hobbis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 2%;
+    background-color: var(--cor-de-fundo);
+}
+
+.hobbies__title {
+    color: var(--cor-da-font);
+    font-family: var(--font-titulo);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 37.57px;
+}
+
+.container_grupo__hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hobbies__img {
+    width: 20px;
+    height: 19px;
+    line-height: 36.8px;
+
+}
+
+.hobbies__name {
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cor-da-font);
+}
+
+
+/* Formação */
+
+
+.container__academico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--cor-de-fundo-2);
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.academico__title {
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 32px;
+    line-height: 37.57px;
+    color: var(--cor-da-font);
+}
+
+.academic__courses__list__conteiner {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+
+}
+
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    gap: 10px;
+    padding: 2%;
+    align-items: flex-start;
+
+}
+
+
+.academico__cursos__item__img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4%;
+    background-color: var(--cor-de-fundo);
+    height: 190px;
+}
+
+.academico__cursos__item__img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.academico__cursos__item__titulo {
+    color: var(--cor-da-font);
+    font-size: 16px;
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+
+.academico__cursos__item__subtitulo {
+    color: var(--cor-da-font);
+    font-size: 13px;
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    width: auto;
+}
+
+/* experiência*/
+
+
+.container__experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--cor-de-fundo);
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.experiencia__title {
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 32px;
+    line-height: 37.57px;
+    color: var(--cor-da-font);
+}
+
+.experiencia__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: auto;
+}
+
+.experiencia__img {
+    width: 80%;
+    text-align: center;
+
+}
+
+.experiencia__informacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.experience__titulo {
+    color: var(--cor-da-font);
+    font-size: 16px;
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 6px;
+}
+
+.experiencia__paragrafo {
+    color: var(--cor-da-font);
+    font-size: 13px;
+    font-family: var(--font-paragrafo);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.experiencia__descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    width: 280px;
+    height: 30px;
+}
+
+.experiencia__botao__repor {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--font-paragrafo);
+    background-color: var(--cor-botao);
+    font-size: 16px;
+    color:var(--cor-da-font);
+    font-style: normal;
+    font-weight: 400;
+    width: 116px;
+    height: 41px;
+    gap: 16px;
+    line-height: 12px;
+    cursor: pointer;
+    border-radius: 32px 64px;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+.experiencia__botao__demo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--font-paragrafo);
+    background-color: white;
+    font-size: 16px;
+    color:var(--cor-da-font);
+    font-style: normal;
+    font-weight: 400;
+    width: 116px;
+    height: 41px;
+    gap: 16px;
+    line-height: 12px;
+    cursor: pointer;
+    border-radius: 32px 64px;
+    text-decoration: none;
+    border: none;
+
+}
+
+/* Contato*/
+
+.container__contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+    background-color: var(--cor-de-fundo-2);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.contato_esquerda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+}
+
+
+.contato__img {
+    width: 464px;
+    height: 593px;
+}
+
+
+.contato__text {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.contato__title {
+    font-size: 32px;
+    font-family: var(--font-titulo);
+    color: var(--cor-da-font);
+    font-weight: 400;
+    line-height: 10px;
+  
+}
+
+.contato__subtexto {
+    color: var(--cor-da-font);
+    font-size: 15px;
+    font-family: var(--font-paragrafo);
+    margin-top: 4px;
+    font-weight: 400;
+    line-height: 10px;
+
+}
+
+.contato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    height: auto;
+
+}
+
+.contato__input {
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+    font-family: var(--font-paragrafo);
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    color: var(--cor-da-font);
+    background-color: var(--cor-de-fundo);
+    border-radius: 2px;
+}
+
+
+.contato__textarea {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    font-family: var(--font-paragrafo);
+    background-color: var(--cor-de-fundo);
+    font-weight: 400;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    color: var(--cor-da-font);
+    border-radius: 2px;
+    resize: none;
+}
+
+.contato__botao  {
+    margin: 10px;
+    font-family: var(--font-paragrafo);
+    background-color: var(--cor-botao);
+    font-size: 16px;
+    color:var(--cor-da-font);
+    font-style: normal;
+    font-weight: 400;
+    width: 120px;
+    height: 41px;
+    gap: 16px;
+    line-height: 12px;
+    cursor: pointer;
+    border-radius: 32px 64px;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: none;
+
+}
+
+
+.rodape {
+    background-color: var(--cor-de-fundo);
+    font-size: 18px;
+    font-family: var(--font-paragrafo);
+    font-weight: 400;
+    font-style: normal;
+    color:  var(--cor-da-font);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.nome__rodape {
+    margin: 5px;
+}
+
+
+
+
