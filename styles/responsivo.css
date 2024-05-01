@@ -261,10 +261,8 @@
     }
 
     .container_skills_title {
-        margin: 10px;
         height: 7px;
-        font-size: 22px;
-        margin-left: 40px;
+        font-size: 26px;
 
     }
 
@@ -277,10 +275,15 @@
 
     }
 
+    .skills__img  {
+        margin-right: 40px;
+    }
+
     .skills__name {
         font-size: 14px;
         line-height: 18px;
         margin-top: 5px;
+        margin-right: 40px;
 
     }
 
@@ -291,10 +294,8 @@
     }
 
     .hobbies__title {
-        margin: 10px;
         height: 7px;
-        font-size: 22px;
-        margin-left: 43px;
+        font-size: 26px;
     }
     
     .container_grupo__hobbies{
@@ -309,11 +310,13 @@
         font-size: 14px;
         line-height: 18px;
         margin-top: 5px;
+        margin-right: 40px;
+   
        
     }
 
     .hobbies__img {
-        margin-right:10px;
+        margin-right: 40px;
     }
 
 
@@ -398,7 +401,7 @@
 
 }
 
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 3px) {
     .contato_esquerda {
         display: none;
     }
