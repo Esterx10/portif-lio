@@ -338,7 +338,7 @@
     }
 
     .academico__cursos__item__img {
-        height: 140px;
+        height: auto;
         width: 100%;
     }
 
