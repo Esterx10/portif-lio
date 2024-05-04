@@ -57,6 +57,7 @@ section.header_conteiner{
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    position: relative;
 }
 
 .header_nav_conteiner a {
@@ -67,6 +68,23 @@ section.header_conteiner{
     font-weight: 400;
     font-size: 16px;
 }
+
+.header_nav_conteiner a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; 
+    left: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: var(--cor-da-font); 
+    transition: width 0.4s; 
+}
+
+
+.header_nav_conteiner a:hover::after {
+    width: 100%; 
+}
+
 
 .menu__list__contato{
     display: none;
@@ -142,7 +160,10 @@ section.header_conteiner{
     width: auto;
     height: 1rem;
     gap: 2rem;
+    position: relative;
 }
+
+
 
 .liks__container img {
     width: 9px;
@@ -213,14 +234,24 @@ section.header_conteiner{
     
 }
 
-.skills__img {
+.skills__img{
     width: auto;
     height: auto;
     line-height: 36.8px;
-
+    
 }
 
-.skills__name{
+.skills__img:hover {
+    transform: scale(1.5);
+    transition: transform 0.7s ease;
+    filter: brightness(0.9) hue-rotate(190deg);
+    
+}
+
+
+
+
+.skills__name {
     text-align: center;
     margin-top: 30px;
     font-family: var(--font-paragrafo);
@@ -265,8 +296,14 @@ section.header_conteiner{
 
 }
 
+.hobbies__img:hover {
+    transform: scale(1.5);
+    transition: transform 0.7s ease;
+    filter: brightness(0.9) hue-rotate(190deg);
+}
+
 .hobbies__name {
-    text-align: center;
+    text-align: start;
     margin-top: 30px;
     font-family: var(--font-paragrafo);
     font-style: normal;
@@ -329,9 +366,16 @@ section.header_conteiner{
     justify-content: center;
     width: 100%;
     padding: 4%;
-    background-color: var(--cor-de-fundo);
+    background-color: white;
     height: 190px;
 }
+
+.academico__cursos__item__img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    
+}
+
 
 .academico__cursos__item__img img {
     max-width: 100%;
@@ -434,6 +478,12 @@ section.header_conteiner{
     gap: 16px;
     width: 280px;
     height: 30px;
+}
+
+.experiencia__descricao button:hover {
+    transform: scale(1.0);
+    transition: transform 0.2s ease;
+    background-color: #ffeede;
 }
 
 .experiencia__botao__repor {
@@ -600,6 +650,12 @@ section.header_conteiner{
     text-decoration: none;
     border: none;
 
+}
+
+.contato__botao:hover {
+    transform: scale(1.0);
+    transition: transform 0.2s ease;
+    background-color: #ffeede;
 }
 
 

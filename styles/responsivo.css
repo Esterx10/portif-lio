@@ -238,6 +238,8 @@
     .container__menu__img {
         width: 100px;
         height: 100px;
+        margin-top: 10px;
+        
     }
 
     .container__sobremin__aboutme {
@@ -338,11 +340,7 @@
     }
 
     .academico__cursos__item__img {
-<<<<<<< HEAD
         height: 141px;
-=======
-        height: auto;
->>>>>>> a589b0caf4d510f841cf5e55e1389abbbbc17108
         width: 100%;
     }
 
