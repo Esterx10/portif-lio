@@ -179,19 +179,29 @@
                     <div class="contato_esquerda">
                         <img class="contato__img" src="/assets/contatoimg (2).png">
                     </div>
-                    <form class="contato__form">
+                    <form class="contato__form" action="https://formsubmit.co/esterdesousa625@gmail.com" method="POST">
                         <div class="contato__text">
                             <h2 class="contato__title">Contato</h2>
-                            <h4 class="contato__subtexto">Quer entrar em contato comigo?</h4>
-                            <h5 class="contato__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h5>
-                        </div>
-                        <input class="contato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="contato__input" type="email" id="email" placeholder="Email">
-                        <input class="contato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="contato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button class="contato__botao">Enviar mensagem</button>
+                            <p class="contato__subtexto">Quer entrar em contato comigo?</p>
+                            <p class="contato__subtexto">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </p>
+                    
+                        <input class="contato__input" type="text"  id="nome" name="name"  placeholder="Nome"required>
+                        <input  class="contato__input"type="email" id="email" name="email" placeholder="Email" required>
+                        <textarea class="contato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+                        <button class="contato__botao" type="submit">Enviar mensagem</button>
+
+
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5502/agradecimento.html"> 
+                        <input type="hidden" name="_subject" value="Novo Contato!">
+                        <input type="text" name="_honey" style="display:none">
+        
+                   </form>
+                    
                         
-                    </form>
+
+                        
+                  
                     
             </section>
 
