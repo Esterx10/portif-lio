@@ -1,0 +1,32 @@
+:root{
+
+    --cor-de-fundo: #f5f1e8;
+    --cor-de-fundo-2: #FEFAE0;
+    --cor-da-font: #566524;
+    --cor-botao: #D4A373;
+
+    --font-titulo: "Sail", system-ui;
+    --font-paragrafo: "Podkova", serif;
+}
+
+
+
+
+/* Pagina 2  */
+
+.imagem_pag2 {
+    display: flex;
+    justify-content: center;
+    background-image: url(/assets/confete.gif);
+    background-repeat:repeat-x;
+    background-color: var(--cor-de-fundo);
+    align-items: center;
+    height: 100vh;
+    min-height: 80%;
+}
+
+.imagem_pag2 img {
+    max-width: 100%;
+    max-height: 50%;
+}
+
