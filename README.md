@@ -13,7 +13,7 @@
 <h2>Apresentação do projeto:</h2>
 <h4>🔍Deploy:</h4>
 
-- Visite o projeto online: [Portifólio](https://gabrieldev071.github.io/portifolio/)
+- Visite o projeto online: [Portifólio](https://portif-lio-nine-hazel.vercel.app/)
 
 <h4>↘️Layout</h4>
 
