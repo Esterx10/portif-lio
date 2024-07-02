@@ -42,9 +42,10 @@ Principal:
 
 <h3> Badge de conclusão do desafio: </h3>
 
+![badge_challenge_portfolio](https://github.com/Esterx10/portif-lio/assets/93721810/0b7e4b22-7ffc-40e0-948e-923e703a8c3e)
 
 
-<h3>Minhas redes e contato: </h3> 
+<h3>Minhas redes de contato: </h3> 
 
 <a href="esterdesousa625@gmail.com" target="_blank" >![GMAIL](https://img.shields.io/badge/GMAIL-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white)</a>
 <a href="https://www.instagram.com/ester_carvalho_100/" target="_blank" >![instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)</a>
